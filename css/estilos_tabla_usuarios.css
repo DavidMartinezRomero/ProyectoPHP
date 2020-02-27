@@ -1,0 +1,264 @@
+* {
+	/* margin: 0; */
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #F5F6FA;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	padding: 15px 0;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header h1 {
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #393A58;
+	display: inline-block;
+}
+
+.btn {
+    justify-content: right;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	border: none;
+	color: #fff;
+	background: #3141B9;
+	cursor: pointer;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	border-radius:100px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+.btnn {
+	justify-content: right;
+	font-size: 14px;
+	border: none;
+	color: #fff;
+	background: #3141B9;
+	cursor: pointer;
+	padding: 2px;
+	border-radius:100px;
+	text-decoration: none;
+	width: 45%;
+}
+
+.btn-edit {
+	font-size: 15px;
+	justify-content: right;
+	border: none;
+	background: #cccccc;
+	cursor: pointer;
+	height: 35px;
+	padding: 0 20px;
+	border-radius: 100px;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+select {
+	width: 140px;
+	justify-content: center;
+	text-align: center;
+}
+
+.btn-edit .btn{
+	color: white;
+}
+
+.ui-widget-header {
+	background: #3141B9;
+}
+
+header button.active {
+	display: inline-block;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+.area_alta .btn {
+	background: #2C79CF;
+	height: 40px;
+	line-height: 40px;
+	border-radius:100px;
+	color: white;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+	margin-bottom: 3%;
+	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+}
+
+td, th {
+	border-bottom:1px solid #E9E9E9;
+	padding: 11px;
+}
+
+th {
+	color:#393A58;
+	font-size: 16px;
+	width: 134px;
+}
+
+td {
+	font-size: 14px;
+	width: 134px;
+}
+
+.opciones {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	width: 150px;
+}
+
+.alter-btn,
+.specific-btn-bsq {
+	max-width: 10%;
+    margin-left: 20px;
+}
+
+.nmb {
+	width: 150px;
+}
+
+.active {
+	display: block;
+}
+
+#form_alta input ,
+#form_buscar input{
+	height: 25px;
+	width: 16%;
+	text-align: center;
+}
+
+#form_alta input.btn,
+#form_buscar input.btn {
+	width: 9%;
+	margin: 0;
+}
+
+#form_alta,
+#form_buscar {
+	display: flex;
+	justify-content: space-between;
+	/* align-items: center; */
+	margin: 23px 0px;
+	width: 100%;
+}
+
+.area_alta {
+	display: flex;
+	margin: 15px 0px;
+}
+
+.form_busc_alta {
+	/* display: flex; */
+    max-width: 100%;
+}
+
+#btn-buscar-usuario,
+#btn-limpiar-usuario {
+	margin-left: 25px;
+}
+
+#btn-save-search {
+	margin-left: 25px;
+}
+
+#form_confirm_admin {
+	display: flex;
+	height: 70px;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.muestra {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.session {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 22%;
+}
+
+.formulario-editar {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-gap: 20px;
+}
+
+.formulario-editar input{
+	text-align: center;
+}
+
+#ok2 title{
+	text-align: center;
+	float: none;
+}
+
+#ok2 {
+	display: flex;
+	align-items: center;
+}
+
+.ui-dialog-buttonset {
+	width: 100%;
+    display: flex;
+	justify-content: center;
+	padding-left: 25px;
+}
+
+#ui-id-1,
+#ui-id-2 {
+	float: none;
+	width: 100%;
+}
+
+.hidden {
+    display: none;
+  }
+
+.order {
+	display: grid;
+	max-width: 20px;
+}
+
+.fa, .fas {
+	text-decoration: none;
+	color: #393A58;
+}
+
+.disp {
+	display: flex;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100px;
+}
+
+.hide-close .ui-dialog-titlebar-close { display: none }
